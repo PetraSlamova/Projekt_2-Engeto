@@ -66,11 +66,9 @@ while True:
 
     print(separator)
 
-    if bulls == 4:  # Pokud hráč uhodl číslo
+     if bulls == 4:  # Pokud hráč uhodl číslo
         celkovy_cas = time.time() - odpocet
-    print(f"Blahopřeji! Uhodl/a jsi číslo {uhodnute} v {pokusy} pokusech.")
-    print(
-        f"Celkový čas: {celkovy_cas:.2f} sekund."
-    )  # Vytiskne čas se dvěma desetinnými místy
-    print(separator + "\n" + "Výborně!")
-    break
+        print(f"Blahopřeji! Uhodl/a jsi číslo {uhodnute} v {pokusy} pokusech.")
+        print(f"Celkový čas: {celkovy_cas:.2f} sekund.") # Vytiskne čas se dvěma desetinnými místy
+        print(separator + "\n" + "Výborně!")
+        break
