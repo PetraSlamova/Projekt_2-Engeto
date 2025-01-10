@@ -55,7 +55,7 @@ while True:
         or hadane[0] == "0"
     ):
         print(
-            "Neplatný pokus! Zadej čtyřmístné číslo, nezačínající nulou složené z různých číslic."
+            "Neplatný pokus! Zadej čtyřmístné číslo, nezačínající nulou, složené z různých číslic."
         )
         continue
     pokusy += 1
