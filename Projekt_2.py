@@ -17,9 +17,6 @@ print(
     + separator
 )
 
-import random
-
-
 def vygeneruj_cislo():  # Generuje náhodné čtyřciferné číslo
     prvni_cislo = random.choice("123456789")  # první číslice nesmí být nula
     ostatni_cisla = random.sample(
